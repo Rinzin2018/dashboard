@@ -2,7 +2,7 @@
 
 Customized Dashboard with landing page and admin panel. Your browser should now open and show the app. Otherwise open http://localhost:3000/ in your browser. Editing files will automatically refresh the page.
 
-##Initial Procedure
+## Initial Procedure
 
 If you like it you can clone and follow below steps.
 
