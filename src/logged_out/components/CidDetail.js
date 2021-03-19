@@ -31,14 +31,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function generate(element) {
-  return [0, 1, 2].map((value) =>
-    React.cloneElement(element, {
-      key: value,
-    }),
-  );
-}
-
 export default function CidDetail(props) {
   const {cid} = props;
   const classes = useStyles();
