@@ -52,7 +52,7 @@ export default function CidDetail(props) {
                   </ListItemIcon>
                   <ListItemText
                     primary="Name"
-                    secondary={cid?.firstName ? (cid?.firstName + `${cid?.middleName || ''}` + ' ' + cid?.lastName || '') : null}
+                    secondary={`${cid?.firstName || ''} ${cid?.middleName || ''} ${cid?.lastName || ''}`}
                   />
                 </ListItem>
                 <ListItem>
