@@ -1,13 +1,14 @@
-import React, { memo } from "react";
-import PropTypes from "prop-types";
-import { Switch } from "react-router-dom";
-import PropsRoute from "../../shared/components/PropsRoute";
-import Home from "./home/Home";
-import Blog from "./blog/Blog";
-import BlogPost from "./blog/BlogPost";
+import React, {memo} from 'react';
+import PropTypes from 'prop-types';
+import {Switch} from 'react-router-dom';
+import PropsRoute from '../../shared/components/PropsRoute';
+import Home from './home/Home';
+import Blog from './blog/Blog';
+import BlogPost from './blog/BlogPost';
+import Citizenship from './CitizenshipDetail';
 
 function Routing(props) {
-  const { blogPosts, selectBlog, selectHome } = props;
+  const {blogPosts, selectBlog, selectHome} = props;
   return (
     <Switch>
       {blogPosts.map(post => (
@@ -25,13 +26,18 @@ function Routing(props) {
       ))}
       <PropsRoute
         exact
+        path="/citizenship"
+        component={Citizenship}
+      />)
+      <PropsRoute
+        exact
         path="/blog"
         component={Blog}
         selectBlog={selectBlog}
         blogPosts={blogPosts}
       />
       )
-      <PropsRoute path="/" component={Home} selectHome={selectHome} />)
+      <PropsRoute path="/" component={Home} selectHome={selectHome}/>)
     </Switch>
   );
 }

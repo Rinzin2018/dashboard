@@ -13,6 +13,7 @@
     "@stripe/react-stripe-js": "^1.1.2",
     "@stripe/stripe-js": "^1.7.0",
     "aos": "^2.3.4",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "date-fns": "^2.14.0",
     "emoji-mart": "^3.0.0",
@@ -25,7 +26,8 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.1",
-    "recharts": "^1.8.5"
+    "recharts": "^1.8.5",
+    "sweetalert": "^2.1.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.10.1",

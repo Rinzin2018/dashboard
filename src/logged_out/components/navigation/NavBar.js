@@ -61,6 +61,11 @@ function NavBar(props) {
       icon: <BookIcon className="text-white" />
     },
     {
+      link: "/citizenship",
+      name: "Citizenship",
+      icon: <LockOpenIcon className="text-white" />
+    },
+    {
       name: "Register",
       onClick: openRegisterDialog,
       icon: <HowToRegIcon className="text-white" />
