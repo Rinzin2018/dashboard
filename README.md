@@ -1,4 +1,4 @@
-# React Dashboard Template clone from react sass template
+# React Dashboard Template clone from react sass template and modified version
 
 Customized Dashboard with landing page and admin panel. Your browser should now open and show the app. Otherwise open http://localhost:3000/ in your browser. Editing files will automatically refresh the page.
 
